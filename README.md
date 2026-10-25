@@ -7,3 +7,6 @@
 # INS3064 - Homework 06
 - **ERD**: [bookstore_erd.md](bookstore_erd.md)
 - **Database Code**: [bookstore_db.sql](bookstore_db.sql)
+
+# INS3064 - Homework 07
+- **SQL Queries**: [bookstore_queries.sql](bookstore_queries.sql)
