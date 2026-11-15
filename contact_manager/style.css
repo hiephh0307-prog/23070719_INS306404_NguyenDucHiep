@@ -1,0 +1,27 @@
+body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; background: #f4f6f9; color: #222; line-height: 1.5; padding: 24px 16px; }
+.container { max-width: 960px; margin: 0 auto; background: #fff; border: 1px solid #dde2e8; border-radius: 8px; padding: 24px; }
+.top-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 20px; padding-bottom: 14px; border-bottom: 1px solid #e4e8ee; }
+h1 { margin: 0; color: #1e3a5f; font-size: 24px; }
+.sub { color: #666; font-size: 14px; margin-top: 2px; }
+.search-bar { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 18px; }
+.search-bar input, .search-bar select { padding: 8px 10px; border: 1px solid #ccd2da; border-radius: 4px; font: inherit; }
+.search-bar input { flex: 1; min-width: 200px; }
+.btn { display: inline-block; background: #1e3a5f; color: #fff; border: none; padding: 8px 16px; border-radius: 4px; font: inherit; cursor: pointer; text-decoration: none; font-size: 14px; }
+.btn:hover { background: #152b47; }
+.btn-secondary { background: #6c757d; }
+.btn-danger { background: #c0392b; }
+.btn-sm { padding: 4px 10px; font-size: 13px; }
+.flash { padding: 10px 14px; border-radius: 4px; margin-bottom: 18px; font-size: 14px; }
+.flash.success { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+.flash.error { background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { padding: 10px 12px; border-bottom: 1px solid #e4e8ee; text-align: left; }
+th { background: #1e3a5f; color: #fff; font-weight: 600; }
+tbody tr:nth-child(even) { background: #f9fbfd; }
+tbody tr:hover { background: #f0f4f8; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: 600; background: #e9ecef; color: #333; }
+.field { margin-bottom: 14px; max-width: 520px; }
+.field label { display: block; font-weight: 600; margin-bottom: 4px; font-size: 14px; }
+.field input, .field select, .field textarea { width: 100%; padding: 8px 10px; border: 1px solid #ccd2da; border-radius: 4px; font: inherit; box-sizing: border-box; }
+.field .error { color: #c0392b; font-size: 13px; margin-top: 3px; display: block; }
+.confirm-box { background: #fdf6f6; border: 1px solid #f5c6cb; padding: 16px; border-radius: 6px; margin-bottom: 18px; }
